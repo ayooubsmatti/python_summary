@@ -153,14 +153,136 @@
 #
 
 # =========================================================================
-price = [10,20,30]
-for i in price:
-    print(price[0]+price[1]+price[2])
+# price = [10,20,30]
+#
+# for i in price:
+#     prices = price[0]+price[1]+price[2]
+# print(prices)
 
+# =========================================================================
+# for x in range(4):
+#     for y in range(4):
+#         print(f"({x} , {y})")
+# ==============
+# numbers = [5, 2, 5, 2, 2]
+# for x_count in numbers:
+#     output = ''
+#     for item in range(x_count):
+#         output += 'x'
+#     print(output)
+# =========================================================================
+# numbers = [3, 6, 8, 1]
+# max = numbers[0]
+# for num in numbers:
+#     if num > max:
+#         max = num
+# print(max)
 
+# =========================================================================
+# martrix = [[1,2,3],[1,2,3],[1,2,3]]
+# for row in martrix:
+#     for item in row:
+#         print(item)
+# =========================================================================
+# numbers = [1, 3, 4]
+# numbers.append(2)
+# print(numbers)
+# numbers.insert(0, 6)
+# print(numbers)
+# numbers.pop()
+# print(numbers)
+# numbers.clear()
+# print(numbers)
 
+# =========================================================================
+# num = [2, 2, 3, 8, 8]
+# unique = []
+# for number in num:
+#     if number not in unique:
+#         unique.append(number)
+# print(unique)
 
-
-
-
-
+# =========================================================================
+# Tuple
+# numbers = (1, 2, 3)
+# print(numbers[1])
+# =========================================================================
+# Unpacking
+# coordinates = (1, 2, 3)
+# x = coordinates[0]
+# y = coordinates[1]
+# z = coordinates[2]
+#
+# x, y, z = coordinates
+# print(y)
+# =========================================================================
+# customer = {
+#     "name": "Jonh Smith",
+#     "age": 30,
+#     "is_verified": True
+# }
+# print(customer["name"])
+# customer["name"] = "Jack Smith"
+# print(customer)
+# =========================================================================
+# phone = input("Phone: ")
+# digits_mapping = {
+#     "1": "One",
+#     "2": "Tow",
+#     "3": "Three",
+#     "4": "four"
+# }
+# output = ""
+# for ch in phone:
+#     output += digits_mapping.get(ch, "!") + " "
+# print(output)
+# =========================================================================
+# message = input("> ")
+# words = message.split(' ')
+# emojis = {
+#     ":)": "\U0001F603",
+#     ":(": "\U0001F603"
+#
+# }
+# output = ""
+# for word in words:
+#     output += emojis.get(word, word) + " "
+# print(output)
+# =========================================================================
+# def greet_user(name,last_name):
+#     print(f"hi {name} {last_name}")
+#     print("Welcome")
+#
+#
+# greet_user(name="saber ayoub", last_name="smatti")
+# =========================================================================
+# def square(num):
+#     return num * num
+#
+#
+# print(square(4))
+# =========================================================================
+# def emojis_converter(message):
+#     words = message.split(" ")
+#     emojis = {
+#          ":)": "\U0001F603",
+#          ":(": "\U0001F603"
+#             }
+#     output = ""
+#     for word in words:
+#         output += emojis.get(word, word) + " "
+#     return output
+#
+#
+# message = input("> ")
+# print(emojis_converter(message))
+# =========================================================================
+# try:
+#     age = int(input("Tape Your Age: "))
+#     print(age)
+#     division = 2000 / age
+# except ZeroDivisionError:
+#     print('Age cannot Be 0.')
+# except ValueError:
+#     print('Invalid value')
+# =========================================================================
