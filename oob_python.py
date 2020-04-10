@@ -16,10 +16,10 @@
 
 # ==========================================
 
-
+#
 # class Person:
-#     def __init__(self, name):
-#         self.name = name
+#     def __init__(self, mame):
+#         self.name = mame
 #
 #     def talk(self):
 #         print("talk")
@@ -77,4 +77,7 @@
 # print(path.exists())
 # for file in path1.glob('*'):
 #     print(file)
+# for file in path1.glob('*.py'):
+#     print(file)
 # ====================================================
+# PEP python enhisment proposel for best practice to formationg or code  exemple PEP8

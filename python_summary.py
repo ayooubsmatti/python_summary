@@ -8,13 +8,13 @@
 # print(age)
 
 # course = "python for beginner"
-# # print(course[1])
-# # print(course[-2])
-# # print(course[0:3])
-# # print(course[1:])
-# # print(course[:4])
-# # print(course[:])
-# # print(course[1:-1])
+# print(course[1])
+# print(course[-2])
+# print(course[0:3])
+# print(course[1:])
+# print(course[:4])
+# print(course[:])
+# print(course[1:-1])
 # ====================================================================
 # format string
 # first = 'ayoub'
@@ -31,7 +31,7 @@
 # print(course.upper())
 # print(course.lower())
 # print(course.find('n'))
-# print(course.replace('b','f'))
+# print(course.replace('b', 'f'))
 # print('p' in course)
 # ======================================================================
 # x = 10
@@ -46,13 +46,15 @@
 # # print(z)
 # # print(f)
 # #
-# # x = 2.9
-# # print(round(x))
-# # x = -2.9
-# # print(abs(x))
+# x = 2.9
+# print(round(x))
+# x = -2.9
+# print(abs(x))
 # ========================================================================
 
 # import math
+# import math
+#
 # print(math.ceil(2.9))
 # print(math.floor(2.9))
 
@@ -118,7 +120,7 @@
 # else:
 #     print("Sorry!")
 # ========================================================================
-
+#
 # command = ""
 # command_check = ""
 # while True:
@@ -177,7 +179,6 @@
 #     if num > max:
 #         max = num
 # print(max)
-
 # =========================================================================
 # martrix = [[1,2,3],[1,2,3],[1,2,3]]
 # for row in martrix:
@@ -234,7 +235,7 @@
 # }
 # output = ""
 # for ch in phone:
-#     output += digits_mapping.get(ch, "!") + " "
+#     output += digits_mapping.get(ch, " ") + " "
 # print(output)
 # =========================================================================
 # message = input("> ")
@@ -249,7 +250,7 @@
 #     output += emojis.get(word, word) + " "
 # print(output)
 # =========================================================================
-# def greet_user(name,last_name):
+# def greet_user(name, last_name):
 #     print(f"hi {name} {last_name}")
 #     print("Welcome")
 #
@@ -262,20 +263,20 @@
 #
 # print(square(4))
 # =========================================================================
-def emojis_converter(message):
-    words = message.split(" ")
-    emojis = {
-         ":)": "\U0001F603",
-         ":(": "\U0001F603"
-            }
-    output = ""
-    for word in words:
-        output += emojis.get(word, word) + " "
-    return output
+# def emojis_converter(message):
+#     words = message.split(" ")
+#     emojis = {
+#          ":)": "\U0001F603",
+#          ":(": "\U0001F603"
+#             }
+#     output = ""
+#     for word in words:
+#         output += emojis.get(word, word) + " "
+#     return output
 
-
-message = input("> ")
-print(emojis_converter(message))
+#
+# message = input("> ")
+# print(emojis_converter(message))
 # =========================================================================
 # try:
 #     age = int(input("Tape Your Age: "))
@@ -286,3 +287,15 @@ print(emojis_converter(message))
 # except ValueError:
 #     print('Invalid value')
 # =========================================================================
+
+# weight = input("your weight: ")
+# covert = input("l g: ")
+# if covert ==
+
+
+
+
+
+
+
+
